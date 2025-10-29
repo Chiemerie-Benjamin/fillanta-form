@@ -1,11 +1,9 @@
 const App = () => {
   return (
-    
     <div
       className=" ml-40 mt-40 tems-center justify-center 
       text-white"
     >
-    
       <img className="w-32 mt-4" src="/image.png" alt="Fillanta Logo" />
 
       <h1 className="text-2xl font-semibold mt-6 text-black">Get Started</h1>
@@ -13,10 +11,8 @@ const App = () => {
       <span className="text-gray-600 mt-2 mb-6">
         Welcome to Fillanta — Let’s create your account
       </span>
-      
-      <div className="bg-gray-200 w-90 h-1 mt-15">
-      hi
-      </div>
+
+      <div className="bg-gray-200 w-90 h-1 mt-15">hi</div>
       <div className="w-full max-w-sm mt-20">
         <p className="mb-2 text-sm text-black">Email</p>
 
@@ -30,8 +26,10 @@ const App = () => {
                      focus:outline-none focus:border-green-600 
                      transition duration-300"
         />
-        <p className="text-black font-bold">Password
-           <span className="ml-60 font-light text-shadow-black">Forget?</span></p>
+        <p className="text-black font-bold">
+          Password
+          <span className="ml-60 font-light text-shadow-black">Forget?</span>
+        </p>
         <input
           type="password"
           id="password"
@@ -44,8 +42,33 @@ const App = () => {
         />
       </div>
 
-      <button>
-        Sign up
+      <button
+        className="
+      bg-[#1E5B42]   
+     hover:bg-[#1E5B41  ]
+        text-white            
+        font-semibold       
+        py-2                
+        px-6
+        pl-40
+          pr-40          
+        rounded-2xl     
+        shadow-lg          
+        hover:shadow-xl      
+        transform            
+        hover:scale-105     
+        transition            
+        duration-300       
+        ease-in-out          
+        focus:outline-none    
+        focus:ring-2    
+        mt-8
+        cursor-pointer
+        focus:ring-indigo-500
+        focus:ring-opacity-50
+      "
+      >
+        Sign Up
       </button>
     </div>
   );
